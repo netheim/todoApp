@@ -1,0 +1,57 @@
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -11px;
+
+  .taskBlock {
+    display: flex;
+    align-items: center;
+
+
+
+    .checkBox {
+      color: #a2ecf6;
+
+    }
+
+    .taskInfo {
+      display: flex;
+      flex-direction: column;
+
+
+      .taskTitle {
+        font-size: 20px;
+        margin-bottom: -5px;
+      }
+
+      .taskActive {
+        text-decoration: line-through;
+      }
+
+      .taskTime {
+        font-size: 11px;
+        opacity: .8;
+      }
+    }
+  }
+
+  .taskBtns {
+
+    .deleteBtn {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+
+      .deleteBtnIcon {
+        color: #a2ecf6;
+
+        transition: color .2s ease-in-out;
+
+        &:hover {
+          color: #00d9f8;
+        }
+      }
+    }
+  }
+}

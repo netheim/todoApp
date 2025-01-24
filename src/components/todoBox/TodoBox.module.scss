@@ -1,0 +1,30 @@
+.todoBox {
+  width: 400px;
+  height: 750px;
+  background-color: #111518FF;
+  color: #FFFFFF;
+
+
+  border-radius: 13px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .todoContent {
+
+    padding: 10px 15px;
+
+    .todoHeader {
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+
+      .todoTitle {
+        font-weight: 500;
+        font-size: 33px;
+      }
+    }
+  }
+
+}
